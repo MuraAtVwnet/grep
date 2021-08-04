@@ -3,10 +3,10 @@
 #########################################
 function grep( $MatchPattern, $FilePattern, [switch]$Recurse ){
 	if($Recurse){
-		[array]$Files = dir $FilePattern -Recurse
+		[array]$Files = Get-ChildItem $FilePattern -Recurse
 	}
 	else{
-		[array]$Files = dir $FilePattern
+		[array]$Files = Get-ChildItem $FilePattern
 	}
 
 	foreach($File in $Files){
