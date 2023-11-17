@@ -18,7 +18,7 @@ uninstall.ps1 を実行して下さい
 
 ■ 動作確認環境
 Windows PowerShell 5.1
-PowerShell 7.1.3(Windows)
+PowerShell 7.3.9(Windows)
 
 ■ リポジトリ
 https://github.com/MuraAtVwnet/grep

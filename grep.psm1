@@ -1,7 +1,7 @@
 ﻿#########################################
 # grep by PowerShell
 #########################################
-function grep( $MatchPattern, $FilePattern, [switch]$Recurse ){
+function grep( [array]$MatchPattern, [array]$FilePattern, [switch]$Recurse ){
 	if($Recurse){
 		[array]$Files = Get-ChildItem $FilePattern -Recurse
 	}
