@@ -9,7 +9,7 @@ grep 正規表現 ファイルパターン -Recurse
 ■ 例
 grep 18[0-9] c:\temp\*.txt -Recurse
 
-■ Install 方法
+■ Online Install 方法
 # 以下を PowerShell プロンプトにコピペ
 
 $ModuleName = "grep"
